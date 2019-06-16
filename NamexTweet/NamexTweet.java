@@ -17,8 +17,8 @@ import twitter4j.TwitterFactory;
 import twitter4j.auth.AccessToken;
 
 public class NamexTweet {
-    private final static String CONSUMER_KEY = "clFIOuPrDXOuLxtyQGpMujiUO";
-    private final static String CONSUMER_KEY_SECRET = "daTLBtoUFJxpvO15rjU613v9MNdalgtsGW5SDd1YGKaJLcfAJG";
+    private final static String CONSUMER_KEY = "Mq7I7tL3colhlVlR7ythNQ";
+    private final static String CONSUMER_KEY_SECRET = "1M08DtOySMIBIMTRjH8ijrcZI6uFsdAr1saAfbTjU";
 
     public void start() throws TwitterException, IOException {
 
@@ -52,12 +52,12 @@ public class NamexTweet {
     private String getSavedAccessTokenSecret() {
 	// consider this is method to get your previously saved Access Token
 	// Secret
-	return "lNnI2Db9Slt1G6dzSdKHZcVII6F0XhpaxswMySHGWMry2";
+	return "vgtzmXM3uLVhZEYjc9BesU1RZDLpo5V13Hoiuaba16HCz";
     }
 
     private String getSavedAccessToken() {
 	// consider this is method to get your previously saved Access Token
-	return "1133369017136082945-LPwe19iwFEr94pxPdoHXsRZyqm50m8";
+	return "108354693-av1LYQgL2CajE8IrUjCXDyQ6tniThv2iNLUnrpXY";
     }
 
     public static void main(String[] args) throws Exception {
